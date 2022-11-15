@@ -1,0 +1,8 @@
+.husky-custom-content__box {
+  margin: auto;
+  max-width: 70%;
+}
+
+.husky-custom-content__box .prose p {
+  margin: 0;
+}
