@@ -1,5 +1,5 @@
 <div id='scasl-app-container' class="new-for-mobile" style="display:none">
-<div class="bh-sl-container scasl-container" >
+<div class="bh-sl-container scasl-container" style="max-width:1450px;" >
 	<div id="page-header">
 		<h1 class="bh-sl-title">Find Our Store</h1>
 	</div>
@@ -207,3 +207,16 @@ if("undefined"==typeof Handlebars&&"function"==typeof define&&define.amd){var sc
 <button class="scasl-view-map-btn">View Map</button>
 {%endraw%}
 </script>
+
+
+{% schema %}
+  {
+    "name": "SCA Store Locator",
+    "settings": [],
+    "presets": [
+      {
+        "name": "SCA Store Locator"
+      }
+    ]
+  }
+{% endschema %}
