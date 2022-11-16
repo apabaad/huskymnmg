@@ -62,6 +62,8 @@
     "article_show_button": true,
     "share_facebook": true,
     "share_pinterest": true,
+    "contact_phone_number": "",
+    "contact_email": "",
     "social_twitter_link": "",
     "social_twitter_label": "",
     "social_facebook_link": "https:\/\/facebook.com\/",
@@ -253,11 +255,11 @@
       "mobile-sticky-bar": {
         "type": "mobile-sticky-bar",
         "settings": {
-          "show_mobile_sticky": true,
-          "show_home_icon": true,
-          "show_collection_icon": true,
-          "show_cart_icon": true,
-          "show_search_icon": true,
+          "show_mobile_sticky": false,
+          "show_home_icon": false,
+          "show_collection_icon": false,
+          "show_cart_icon": false,
+          "show_search_icon": false,
           "show_account_icon": false,
           "show_wishlist_icon": false
         }

@@ -45,6 +45,155 @@
         "custom_class": ""
       }
     },
+    "897d2b15-730e-42ad-ad24-457184fdfe4a": {
+      "type": "husky-custom-badges",
+      "blocks": {
+        "template--16925765108009__897d2b15-730e-42ad-ad24-457184fdfe4a-16685575337d9736da-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screenshot_2_6ff4533f-652c-4f07-9574-9a9f4a251c32.png",
+            "image_by_url": "",
+            "image_link": "",
+            "max_width": "150px",
+            "husky-badge-title": "trusted brand",
+            "husky-badge-desc": "Husky is a global brand, trusted by thousands of customers"
+          }
+        },
+        "template--16925765108009__897d2b15-730e-42ad-ad24-457184fdfe4a-16685575337d9736da-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screenshot_1_5ee7b139-84d9-4423-b231-9cc80850694e.png",
+            "image_by_url": "",
+            "image_link": "",
+            "max_width": "150px",
+            "husky-badge-title": "product range",
+            "husky-badge-desc": "Husky is a global brand, trusted by thousands of customers"
+          }
+        },
+        "template--16925765108009__897d2b15-730e-42ad-ad24-457184fdfe4a-16685575337d9736da-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screenshot_3_f8dbf561-6d03-4588-8a22-becc0766e78c.png",
+            "image_by_url": "",
+            "image_link": "",
+            "max_width": "150px",
+            "husky-badge-title": "we deliver",
+            "husky-badge-desc": "Husky is a global brand, trusted by thousands of customers straight to your door"
+          }
+        },
+        "template--16925765108009__897d2b15-730e-42ad-ad24-457184fdfe4a-16685575337d9736da-3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screenshot_4.png",
+            "image_by_url": "",
+            "image_link": "",
+            "max_width": "150px",
+            "husky-badge-title": "great pricing",
+            "husky-badge-desc": "Husky is a global brand, trusted by thousands of customers"
+          }
+        },
+        "502cf08b-a285-4ad4-bd5b-a2fa016585b3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screenshot_6.png",
+            "image_by_url": "",
+            "image_link": "",
+            "max_width": "150px",
+            "husky-badge-title": "service & support",
+            "husky-badge-desc": "Husky is a global brand, trusted by thousands of customers"
+          }
+        }
+      },
+      "block_order": [
+        "template--16925765108009__897d2b15-730e-42ad-ad24-457184fdfe4a-16685575337d9736da-0",
+        "template--16925765108009__897d2b15-730e-42ad-ad24-457184fdfe4a-16685575337d9736da-1",
+        "template--16925765108009__897d2b15-730e-42ad-ad24-457184fdfe4a-16685575337d9736da-2",
+        "template--16925765108009__897d2b15-730e-42ad-ad24-457184fdfe4a-16685575337d9736da-3",
+        "502cf08b-a285-4ad4-bd5b-a2fa016585b3"
+      ],
+      "settings": {
+        "heading": "",
+        "subheading": "HUSKY IS A LEADING DESIGNER AND MANUFACTURER OF STYLISH, RELIABLE refrigeration for the home. browse our range of fridges & freezers to find the prefect appliance for your kitchen.",
+        "header_alignment": "center",
+        "container": "container-fluid",
+        "background_color": "#a6a6a6",
+        "item_per_row": 5,
+        "enable_slider": true,
+        "autorotate": true,
+        "autorotate_speed": 3,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": ""
+      }
+    },
+    "357b12f5-9b19-44b3-b85d-fcef74b0584e": {
+      "type": "brands-list",
+      "disabled": true,
+      "blocks": {
+        "template--16925765108009__357b12f5-9b19-44b3-b85d-fcef74b0584e-1668487829870f660c-2": {
+          "type": "image",
+          "settings": {
+            "image_by_url": "",
+            "image_link": "",
+            "max_width": "150px"
+          }
+        },
+        "template--16925765108009__357b12f5-9b19-44b3-b85d-fcef74b0584e-1668487829870f660c-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Husky.png",
+            "image_by_url": "",
+            "image_link": "",
+            "max_width": "150px"
+          }
+        },
+        "template--16925765108009__357b12f5-9b19-44b3-b85d-fcef74b0584e-1668487829870f660c-3": {
+          "type": "image",
+          "settings": {
+            "image_by_url": "",
+            "image_link": "",
+            "max_width": "150px"
+          }
+        },
+        "template--16925765108009__357b12f5-9b19-44b3-b85d-fcef74b0584e-1668487829870f660c-1": {
+          "type": "image",
+          "settings": {
+            "image_by_url": "",
+            "image_link": "",
+            "max_width": "150px"
+          }
+        },
+        "a6e1e624-bec7-413a-92a6-fa8a4fe5cd3c": {
+          "type": "image",
+          "settings": {
+            "image_by_url": "",
+            "image_link": "",
+            "max_width": "150px"
+          }
+        }
+      },
+      "block_order": [
+        "template--16925765108009__357b12f5-9b19-44b3-b85d-fcef74b0584e-1668487829870f660c-2",
+        "template--16925765108009__357b12f5-9b19-44b3-b85d-fcef74b0584e-1668487829870f660c-0",
+        "template--16925765108009__357b12f5-9b19-44b3-b85d-fcef74b0584e-1668487829870f660c-3",
+        "template--16925765108009__357b12f5-9b19-44b3-b85d-fcef74b0584e-1668487829870f660c-1",
+        "a6e1e624-bec7-413a-92a6-fa8a4fe5cd3c"
+      ],
+      "settings": {
+        "heading": "",
+        "subheading": "HUSKY IS A LEADING DESIGNER AND MANUFACTURER OF STYLISH, RELIABLE",
+        "header_alignment": "center",
+        "container": "container-fluid",
+        "background_color": "#a6a6a6",
+        "item_per_row": 5,
+        "enable_slider": true,
+        "autorotate": true,
+        "autorotate_speed": 3,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": ""
+      }
+    },
     "cdfbc395-16af-4f33-8f04-2a208f24d98c": {
       "type": "custom-content",
       "blocks": {
@@ -136,6 +285,8 @@
   },
   "order": [
     "1621243260e1af0c20",
+    "897d2b15-730e-42ad-ad24-457184fdfe4a",
+    "357b12f5-9b19-44b3-b85d-fcef74b0584e",
     "cdfbc395-16af-4f33-8f04-2a208f24d98c",
     "45b4e46e-5e41-4b07-836c-978a1a5ee4d6"
   ]

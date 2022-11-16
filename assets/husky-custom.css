@@ -6,3 +6,33 @@
 .husky-custom-content__box .prose p {
   margin: 0;
 }
+
+.husky-flex-column {
+  flex-direction: column;
+}
+
+.husky-badges-container .section__subheading {
+  color: white;
+  text-transform: uppercase;
+  font-size: large;
+  max-width: 80%;
+  /* text-align: center; */
+  margin: auto;
+}
+
+.husky-badge-title {
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-top: 10px;
+}
+
+.husky-badge-desc {
+  text-transform: uppercase;
+  font-size: small;
+}
+
+@media screen and (min-width: 768px) {
+  .husky-footer-block-title {
+    display: none;
+  }
+}
