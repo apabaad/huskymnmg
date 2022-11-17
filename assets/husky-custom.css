@@ -52,7 +52,11 @@
 }
 
 .main-product__block {
-  margin-top: 0px !important;
+  margin-top: 12px !important;
+}
+
+.main-product__block-meta {
+  margin-top: 0 !important;
 }
 
 .prod__additional_infos li {
@@ -63,6 +67,24 @@
   color: #308eb4;
 }
 
+.main-product__block-description .prose span {
+  color: black;
+}
+
+.prod__option-label__quantity {
+  display: none;
+}
+
+.specs-manual-row button {
+  background-color: white;
+  border: 2px solid #7c7c7c;
+  color: black;
+}
+
+.sirius-manual-btn:hover {
+  color: #308eb4;
+  border: 2px solid #308eb4;
+}
 /* ------------------------------Footer--------------------------------------- */
 
 @media screen and (min-width: 768px) {

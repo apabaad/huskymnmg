@@ -38,8 +38,8 @@
           "settings": {
           }
         },
-        "7904327d-bcb0-4459-91b1-4004e8eb233e": {
-          "type": "short_description",
+        "f4cc1535-497d-4e28-8ca3-88a3c07440a9": {
+          "type": "specs-manuals",
           "settings": {
           }
         },
@@ -56,15 +56,6 @@
             "show_atc_button": true,
             "show_dynamic_checkout": true
           }
-        },
-        "addons": {
-          "type": "addons",
-          "disabled": true,
-          "settings": {
-            "show_atcp": false,
-            "show_ask_a_question": false,
-            "show_social": false
-          }
         }
       },
       "block_order": [
@@ -72,10 +63,9 @@
         "a67e3479-5228-498b-845b-e48faf70df17",
         "price",
         "fd011634-c473-4662-9ce5-9d799d199554",
-        "7904327d-bcb0-4459-91b1-4004e8eb233e",
+        "f4cc1535-497d-4e28-8ca3-88a3c07440a9",
         "variant_picker",
-        "buy_buttons",
-        "addons"
+        "buy_buttons"
       ],
       "settings": {
         "container": "container",
@@ -88,8 +78,8 @@
         "enable_video_autoplay": false,
         "show_nav_media_mobile": false,
         "show_pagination_mobile": true,
-        "use_sticky_atc": true,
-        "use_sticky_atc_on_mobile": true,
+        "use_sticky_atc": false,
+        "use_sticky_atc_on_mobile": false,
         "enable_dynamic_checkout": false,
         "sticky_atc_wishtlist": false,
         "sticky_atc_compare": false
@@ -126,7 +116,6 @@
     },
     "product-recommendations": {
       "type": "product-recommendations",
-      "disabled": true,
       "settings": {
         "container": "container",
         "heading": "You Might Also Like",
@@ -139,7 +128,6 @@
     },
     "recent-viewed-products": {
       "type": "recent-viewed-products",
-      "disabled": true,
       "settings": {
         "container": "container",
         "heading": "Recently Viewed Products",

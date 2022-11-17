@@ -101,6 +101,29 @@
               {% if settings.review_app == 'ali_reviews' %}
                 <div product-id="{{ product.id }}" class="alr-display-review-badge mt-2"></div>
               {% endif %}
+
+              {%- when 'specs-manuals' -%}
+                <div class ="specs-manuals">
+
+                  <div class="specs-manual-row">
+
+                    {% if product.metafields.custom.spec_sheet != blank %}
+                      <button class = "sirius-manual-btn h-full  px-6 py-2 text-white">
+                        <a href = "{{ product.metafields.custom.spec_sheet | file_url }}" target = "_blank"> SPEC SHEET </a>
+                      </button>
+                    {% endif %}
+
+                  {% if product.metafields.custom.user_manual != blank %}
+                    <button class = "sirius-manual-btn h-full  px-6 py-2 text-white ml-3">
+                      <a href = "{{ product.metafields.custom.user_manual | file_url }}" target = "_blank"> 
+                      USER MANUAL </a>
+                    </button>
+                  {% endif %}
+
+                  </div>
+
+                </div>
+
             {%- when 'price' -%}
               <div class="prod__reviews-and-prices flex">
                 {% render 'product-prices', use_variant: true, product: product, show_sale_badge: block.settings.show_saving, price_text_size: 'text-xl md:text-2xl' %}
