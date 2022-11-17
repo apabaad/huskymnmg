@@ -1,3 +1,5 @@
+/* ------------------------------Homepage--------------------------------------- */
+
 .husky-custom-content__box {
   margin: auto;
   max-width: 70%;
@@ -28,8 +30,40 @@
 
 .husky-badge-desc {
   text-transform: uppercase;
-  font-size: small;
+  color: white !important;
 }
+
+/* ------------------------------Collection page--------------------------------------- */
+
+.husky-add-to-cart {
+  background-color: #308eb4 !important;
+  border: none !important;
+  color: white !important;
+}
+
+.prod__tag-sale {
+  background-color: #308eb4;
+}
+
+/* ------------------------------Product page--------------------------------------- */
+
+.prod__sku {
+  font-weight: bold;
+}
+
+.main-product__block {
+  margin-top: 0px !important;
+}
+
+.prod__additional_infos li {
+  margin-top: 0px !important;
+}
+
+.husky-regular-price {
+  color: #308eb4;
+}
+
+/* ------------------------------Footer--------------------------------------- */
 
 @media screen and (min-width: 768px) {
   .husky-footer-block-title {

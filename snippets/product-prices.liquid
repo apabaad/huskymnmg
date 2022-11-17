@@ -41,12 +41,10 @@
   </div>
   <div class="f-price__sale">
     <span class="visually-hidden visually-hidden--inline">{{ 'products.product.price.sale_price' | t }}</span>
-    <span class="f-price-item f-price-item--sale {{ price_text_size }} prod__price text-color-regular-price">
-        {{ money_price }}
-      </span>
+    
     {%- unless product.price_varies == false and product.compare_at_price_varies %}
       <span class="visually-hidden visually-hidden--inline">{{ 'products.product.price.regular_price' | t }}</span>
-      <s class="f-price-item f-price-item--regular prod__compare_price ml-2 line-through text-color-secondary flex items-center">
+      <s class="f-price-item f-price-item--regular prod__compare_price line-through text-color-secondary flex items-center">
         {% if settings.currency_code_enabled %}
           {{ compare_at_price | money_with_currency }}
         {% else %}
@@ -54,6 +52,10 @@
         {% endif %}
       </s>
     {%- endunless -%}
+    <span class="f-price-item f-price-item--sale {{ price_text_size }} prod__price text-color-regular-price husky-regular-price">
+      &nbsp;{{ money_price }}
+    </span>
+
   </div>
   <div class="f-price__unit-wrapper{% if selected_variant.unit_price_measurement == nil %} hidden{% endif %}">
     <span class="visually-hidden">{{ 'products.product.price.unit_price' | t }}</span>

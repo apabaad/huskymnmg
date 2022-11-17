@@ -4,12 +4,13 @@
       "type": "collection-page-header",
       "settings": {
         "container": "container",
-        "layout": "inside",
-        "header_height": "small",
+        "layout": "outside",
+        "header_height": "adapt",
         "text_alignment": "center",
         "vertical_alignment": "center",
-        "text_color": "dark",
+        "text_color": "white",
         "bg_color": "#ffffff",
+        "bg_image": "shopify:\/\/shop_images\/Screenshot_13.png",
         "enable_parallax": false,
         "upper_title": false,
         "show_desc": false,
@@ -73,6 +74,16 @@
             "use_accordion": true,
             "open_filtergroup": true
           }
+        },
+        "e207f6d0-59cd-43c4-ba30-422df1532e87": {
+          "type": "collections",
+          "settings": {
+            "title": "Collections",
+            "menu": "",
+            "show_image": false,
+            "use_accordion": true,
+            "open_filtergroup": true
+          }
         }
       },
       "block_order": [
@@ -80,20 +91,21 @@
         "e12de6da-eab8-4abe-967c-06d0d959a18a",
         "fa31a837-9c99-4c92-8cfe-0527ffbe7b15",
         "4903963a-90f0-4fe1-be23-ee4f8749e483",
-        "00b3badd-1613-4230-85d8-f87f04306aaa"
+        "00b3badd-1613-4230-85d8-f87f04306aaa",
+        "e207f6d0-59cd-43c4-ba30-422df1532e87"
       ],
       "settings": {
-        "container": "container-fluid",
+        "container": "container",
         "grid_layout": "grid",
-        "grid_columns": "5",
+        "grid_columns": "3",
         "show_columns_switcher": false,
         "pagination_limit": 12,
         "paginate_type": "infinite",
         "show_sorting": false,
         "show_filter": true,
-        "filters_type": "tags_filter",
+        "filters_type": "storefront_filters",
         "sidebar": "leftColumn",
-        "sidebar_title": "Filters",
+        "sidebar_title": "",
         "limit_height_widget": false,
         "limit_height": 300,
         "change_product_variant_on_fitlering": true,
@@ -101,22 +113,10 @@
         "collapsed_groups": "Brand, Vendor, Size",
         "color_swatches": "color,colour,couleur,farbe"
       }
-    },
-    "recent-viewed": {
-      "type": "recent-viewed-products",
-      "settings": {
-        "container": "container",
-        "heading": "Recently Viewed Products",
-        "limit": 8,
-        "columns": 4,
-        "column_gap": 30,
-        "enable_slider": true
-      }
     }
   },
   "order": [
     "collection-header",
-    "main",
-    "recent-viewed"
+    "main"
   ]
 }

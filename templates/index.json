@@ -213,7 +213,7 @@
             "text_size": "medium",
             "text_alignment": "left",
             "button_label": "CLICK HERE",
-            "button_link": "",
+            "button_link": "shopify:\/\/collections\/domestic-fridges",
             "button_style": "sf__btn-primary",
             "button_size": "",
             "block_custom_class": ""
@@ -257,7 +257,7 @@
             "text_size": "medium",
             "text_alignment": "right",
             "button_label": "CLICK HERE",
-            "button_link": "",
+            "button_link": "shopify:\/\/collections\/domestic-fridges",
             "button_style": "sf__btn-primary",
             "button_size": "",
             "block_custom_class": ""
