@@ -41,6 +41,10 @@
     style="--bg-color: {{ section.settings.bg_color | default: 'transparent' }}; {% if bg_image != blank %}--bg-image: url({{ bg_image | image_url }}){% endif %};{% if header_height == 'adapt' %}height: {{- wrapper_height -}}vw{% endif %}"
 >
     <div class="collection-header__bg absolute -inset-0 bg-color bg-no-repeat bg-cover bg-center pointer-events-none {% if enable_parallax %} bg-fixed{% endif %}"></div>
+    
+    {% comment %} 
+    
+    ------------------------ collection title removed from collection banner image --------------------
     <div class="{{ section.settings.container }} text-{{ text_alignment }}">
         <div class="sf__collection-headerContent relative z-1 text-{{ section.settings.text_color }}">
             <h1 class="collection-header__title lg:text-[42px] text-2xl {% if section.settings.upper_title %}uppercase{% else %}capitalize{% endif %}">{{ collection.title }}</h1>
@@ -56,7 +60,8 @@
               </div>
             {% endif %}
         </div>
-    </div>
+    </div> {% endcomment %}
+
 </div>
 
 {% if show_breadcrumb and layout == 'outside' %}

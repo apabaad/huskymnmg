@@ -55,6 +55,9 @@
               data-total-pages="{{ paginate.pages }}"
               data-product-container
             >
+
+              <h1 align="center" class="collection-header__title lg:text-[34px] text-2xl capitalize" style="margin:30px auto">{{ collection.title }}</h1>
+
               <div class="mt-6 flex flex-wrap -mx-2 xl:-mx-3">
                 {%- for product in collection.products -%}
                   <div class="sf__col-item w-6/12 md:w-4/12 px-2 xl:px-3">

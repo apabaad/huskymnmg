@@ -148,6 +148,98 @@
               "container": "inherit",
               "html": ""
             }
+          },
+          "acd644fa-b59e-426e-9a55-cc991fde6b75": {
+            "type": "collection-list",
+            "settings": {
+              "heading": "Home range",
+              "container": "container",
+              "collection_1": "freestanding-integrated-fridges",
+              "image_1": "shopify:\/\/shop_images\/download.png",
+              "collection_2": "chest-vertical-freezers",
+              "image_2": "shopify:\/\/shop_images\/download_b9083f11-22ef-4747-8a59-9cfe3f33d338.png",
+              "collection_3": "glass-solid-door-bar-fridges",
+              "image_3": "shopify:\/\/shop_images\/download_bcb5012c-c484-4565-94d1-4f3ddd0e6948.png",
+              "collection_4": "",
+              "collection_5": "",
+              "collection_6": ""
+            }
+          },
+          "496220f6-dc89-4aff-8a22-914094122072": {
+            "type": "banner",
+            "disabled": true,
+            "settings": {
+              "heading": "home range",
+              "container": "container",
+              "banner_style": "outside",
+              "banner_link": "",
+              "banner_title": "New collection",
+              "banner_desc": "",
+              "banner_button_text": "Shop now"
+            }
+          },
+          "9b43cfee-98e9-4d3f-8501-59e0462a1b9d": {
+            "type": "collection-list",
+            "settings": {
+              "heading": "drinks chillers",
+              "container": "container",
+              "collection_1": "outdoor-back-bar-chillers",
+              "image_1": "shopify:\/\/shop_images\/download_41a49929-1811-49f0-8dac-7ad680682c2c.png",
+              "collection_2": "outdoor-alfresco-chillers",
+              "image_2": "shopify:\/\/shop_images\/download_a00b2b91-81b9-4371-aa4e-a667335c0f93.png",
+              "collection_3": "",
+              "collection_4": "",
+              "collection_5": "",
+              "collection_6": ""
+            }
+          },
+          "0ff0230b-3660-4501-99da-b88444746207": {
+            "type": "collection-list",
+            "settings": {
+              "heading": "Wine Cabinets",
+              "container": "container",
+              "collection_1": "under-counter-wine-fridges",
+              "image_1": "shopify:\/\/shop_images\/download_c13e794c-55e8-468e-8f5e-9601ef84a1f8.png",
+              "collection_2": "double-door-wine-fridges",
+              "image_2": "shopify:\/\/shop_images\/download_61e063de-576d-4ba6-b213-9f49a67001ff.png",
+              "collection_3": "freestanding-wine-fridges",
+              "image_3": "shopify:\/\/shop_images\/download_89ea5784-1372-4755-9fe9-459154cd8ecd.png",
+              "collection_4": "",
+              "collection_5": "",
+              "collection_6": ""
+            }
+          },
+          "3732fd72-0639-4415-8563-a2d8f7b346d4": {
+            "type": "collection-list",
+            "settings": {
+              "heading": "Commercial",
+              "container": "container",
+              "collection_1": "under-counter-wine-fridges",
+              "image_1": "shopify:\/\/shop_images\/download_0f7eabdf-f716-443e-b7fe-8fab65ca5d38.png",
+              "collection_2": "vertical-glass-door-fridges-freezers",
+              "image_2": "shopify:\/\/shop_images\/download_eaf69bef-fe60-4ebe-a607-48f997b42b1f.png",
+              "collection_3": "vertical-solid-door-fridges-freezers",
+              "image_3": "shopify:\/\/shop_images\/download_a35a6bdd-5764-42d8-9d58-2e699b16fa6b.png",
+              "collection_4": "",
+              "collection_5": "",
+              "collection_6": ""
+            }
+          },
+          "961b4ede-fd10-4b6a-a6a7-c8fd97b6df92": {
+            "type": "collection-list",
+            "settings": {
+              "heading": "Factory Seconds",
+              "container": "container",
+              "collection_1": "bar-fridge-drinks-chillers",
+              "image_1": "shopify:\/\/shop_images\/download_dde561e5-aabd-42ba-96c7-11101d31c290.png",
+              "collection_2": "commercial-refrigeration-1",
+              "image_2": "shopify:\/\/shop_images\/download_b86c6603-e836-44d8-859f-e4e313d68ce7.png",
+              "collection_3": "factory-seconds",
+              "image_3": "shopify:\/\/shop_images\/download_06a40119-ee65-46eb-861f-84876ca976b0.png",
+              "collection_4": "",
+              "collection_5": "",
+              "collection_6": ""
+            }
           }
         },
         "block_order": [
@@ -155,7 +247,13 @@
           "5b9aec5f-b955-4765-9a87-1962d613e909",
           "a820a1bc-dfc4-4e61-8c8a-de23659759a6",
           "31481022-f698-4968-bf06-3c24f36b09e7",
-          "ea723308-92c0-42ae-a45d-aede426d8cdd"
+          "ea723308-92c0-42ae-a45d-aede426d8cdd",
+          "acd644fa-b59e-426e-9a55-cc991fde6b75",
+          "496220f6-dc89-4aff-8a22-914094122072",
+          "9b43cfee-98e9-4d3f-8501-59e0462a1b9d",
+          "0ff0230b-3660-4501-99da-b88444746207",
+          "3732fd72-0639-4415-8563-a2d8f7b346d4",
+          "961b4ede-fd10-4b6a-a6a7-c8fd97b6df92"
         ],
         "settings": {
           "header_design": "logo-left-menu-center",
@@ -164,14 +262,13 @@
           "transparent_on_top": false,
           "logo_text": "HUSKY",
           "logo": "shopify:\/\/shop_images\/Husky.png",
-          "logo_mobile": "shopify:\/\/shop_images\/Husky.png",
           "logo_svg": "",
           "logo_mobile_svg": "",
           "logo_transparent_svg": "",
           "logo_max_width": 175,
           "sticky_logo_max_width": 145,
           "mobile_logo_max_width": 110,
-          "main_menu": "main-menu",
+          "main_menu": "main-menu-test",
           "secondary_menu": "main-menu",
           "mobile_menu": "",
           "uppercase_parent_level": false,
@@ -192,7 +289,6 @@
             "type": "custom_text",
             "settings": {
               "title": "",
-              "image": "shopify:\/\/shop_images\/Husky.png",
               "image_max": "200px",
               "description": "",
               "width": "66%",
@@ -223,7 +319,7 @@
           "7d719a19-0930-4e1d-8abd-742ee7ef4614": {
             "type": "menu",
             "settings": {
-              "menu": "footer-menu-3",
+              "menu": "",
               "title": "Service",
               "width": "25%",
               "order_first": false,

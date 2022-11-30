@@ -174,7 +174,7 @@
                                     class="sf-mega-menu-collections md:pl-4 xl:pl-12"
                                     data-id="{{ block.id }}"
                                 >
-                                    <div class="sf-grid flex" style="--column-gap: 1.25rem">
+                                    <div class="sf-grid flex" style="--column-gap: 1.25rem; justify-content:space-around;">
                                         {% for collection_id in collection_ids %}
                                             {% liquid
                                               if block.settings[collection_id] == blank

@@ -33,6 +33,12 @@
             "show_saving": false
           }
         },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "size_title": "Size"
+          }
+        },
         "fd011634-c473-4662-9ce5-9d799d199554": {
           "type": "description",
           "settings": {
@@ -41,12 +47,6 @@
         "f4cc1535-497d-4e28-8ca3-88a3c07440a9": {
           "type": "specs-manuals",
           "settings": {
-          }
-        },
-        "variant_picker": {
-          "type": "variant_picker",
-          "settings": {
-            "size_title": "Size"
           }
         },
         "buy_buttons": {
@@ -62,9 +62,9 @@
         "title",
         "a67e3479-5228-498b-845b-e48faf70df17",
         "price",
+        "variant_picker",
         "fd011634-c473-4662-9ce5-9d799d199554",
         "f4cc1535-497d-4e28-8ca3-88a3c07440a9",
-        "variant_picker",
         "buy_buttons"
       ],
       "settings": {
@@ -116,6 +116,7 @@
     },
     "product-recommendations": {
       "type": "product-recommendations",
+      "disabled": true,
       "settings": {
         "container": "container",
         "heading": "You Might Also Like",
@@ -128,6 +129,7 @@
     },
     "recent-viewed-products": {
       "type": "recent-viewed-products",
+      "disabled": true,
       "settings": {
         "container": "container",
         "heading": "Recently Viewed Products",
@@ -136,6 +138,11 @@
         "column_gap": 30,
         "enable_slider": true
       }
+    },
+    "3ccffed4-5c1b-4e69-b8af-0796bef822da": {
+      "type": "husky-technical-specs",
+      "settings": {
+      }
     }
   },
   "order": [
@@ -143,6 +150,7 @@
     "main",
     "product-details-tabs",
     "product-recommendations",
-    "recent-viewed-products"
+    "recent-viewed-products",
+    "3ccffed4-5c1b-4e69-b8af-0796bef822da"
   ]
 }
