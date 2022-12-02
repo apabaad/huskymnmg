@@ -45,6 +45,7 @@
         -%}
         {%- paginate collection.products by st.pagination_limit -%}
           {%- if collection.products.size == 0 -%}
+            
             <div class="empty-collection py-24 flex flex-col w-full items-center">
               <span>{%- render 'icon', name: 'empty-collection', fill: '#9a9a9a' -%}</span>
               <p class="mt-5 text-color-subtext">{{ 'collections.general.no_matches' | t }}</p>
@@ -56,8 +57,7 @@
               data-product-container
             >
 
-              <h1 align="center" class="collection-header__title lg:text-[34px] text-2xl capitalize" style="margin:30px auto">{{ collection.title }}</h1>
-
+              
               <div class="mt-6 flex flex-wrap -mx-2 xl:-mx-3">
                 {%- for product in collection.products -%}
                   <div class="sf__col-item w-6/12 md:w-4/12 px-2 xl:px-3">

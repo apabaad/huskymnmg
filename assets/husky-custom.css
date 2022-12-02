@@ -11,6 +11,7 @@
 
 .husky-flex-column {
   flex-direction: column;
+  padding-bottom: 0;
 }
 
 .husky-badges-container .section__subheading {
@@ -31,6 +32,38 @@
 .husky-badge-desc {
   text-transform: uppercase;
   color: white !important;
+}
+
+.husky-badge-main-text {
+  margin-bottom: 0 !important;
+}
+
+@media screen and (max-width: 768px) {
+  .husky-badge-main-text {
+    display: none;
+  }
+
+  .husky-badge-title {
+    text-transform: capitalize;
+    width: 100%;
+    padding-top: 5px;
+    font-weight: 500;
+  }
+
+  .husky-flex-column {
+    padding: 0px;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .husky-badge-title {
+    text-transform: capitalize;
+    width: 100%;
+    padding-top: 5px;
+    font-weight: 300;
+    font-size: 11px;
+    line-height: 0.9;
+  }
 }
 
 /* ------------------------------Collection page--------------------------------------- */

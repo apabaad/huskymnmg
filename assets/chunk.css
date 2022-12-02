@@ -2945,6 +2945,7 @@ html.prevent-scroll body {
   }
   .brands-list .swiper-slide {
     padding: 1.25rem;
+    padding-bottom: 0;
     width: auto !important;
   }
 }

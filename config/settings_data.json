@@ -151,6 +151,7 @@
           },
           "acd644fa-b59e-426e-9a55-cc991fde6b75": {
             "type": "collection-list",
+            "disabled": true,
             "settings": {
               "heading": "Home range",
               "container": "container",
@@ -180,6 +181,7 @@
           },
           "9b43cfee-98e9-4d3f-8501-59e0462a1b9d": {
             "type": "collection-list",
+            "disabled": true,
             "settings": {
               "heading": "drinks chillers",
               "container": "container",
@@ -195,6 +197,7 @@
           },
           "0ff0230b-3660-4501-99da-b88444746207": {
             "type": "collection-list",
+            "disabled": true,
             "settings": {
               "heading": "Wine Cabinets",
               "container": "container",
@@ -211,6 +214,7 @@
           },
           "3732fd72-0639-4415-8563-a2d8f7b346d4": {
             "type": "collection-list",
+            "disabled": true,
             "settings": {
               "heading": "Commercial",
               "container": "container",
@@ -227,6 +231,7 @@
           },
           "961b4ede-fd10-4b6a-a6a7-c8fd97b6df92": {
             "type": "collection-list",
+            "disabled": true,
             "settings": {
               "heading": "Factory Seconds",
               "container": "container",
@@ -271,7 +276,7 @@
           "main_menu": "main-menu-test",
           "secondary_menu": "main-menu",
           "mobile_menu": "",
-          "uppercase_parent_level": false,
+          "uppercase_parent_level": true,
           "search": "show_icon",
           "show_account_icon": false,
           "show_cart_icon": true,
@@ -289,9 +294,10 @@
             "type": "custom_text",
             "settings": {
               "title": "",
+              "image": "shopify:\/\/shop_images\/Husky.png",
               "image_max": "200px",
-              "description": "",
-              "width": "66%",
+              "description": "<p>Distributed by <a href=\"https:\/\/arisit.com\/\" target=\"_blank\">Arisit Pty Limited<\/a><br\/>40-44 Mark Anthony Drive, Dandenong South, VIC 3175<\/p><p>2021 Husky Refrigeration.<br\/>All rights reserved.<\/p>",
+              "width": "50%",
               "order_first": false,
               "open_default": false
             }
@@ -299,8 +305,18 @@
           "49e72833-c68f-4a7b-ab64-3ef0cae99bcb": {
             "type": "menu",
             "settings": {
-              "menu": "main-menu",
+              "menu": "categories-footer-menu",
               "title": "",
+              "width": "25%",
+              "order_first": false,
+              "open_default": false
+            }
+          },
+          "4d8dbab5-c3e3-45f9-aeeb-6bbcff6553aa": {
+            "type": "menu",
+            "settings": {
+              "menu": "useful-links",
+              "title": "USEFUL LINKS",
               "width": "25%",
               "order_first": false,
               "open_default": false
@@ -309,19 +325,9 @@
           "7ebc2f78-975b-4a81-b874-103c3355a866": {
             "type": "menu",
             "settings": {
-              "menu": "main-menu",
-              "title": "",
-              "width": "25%",
-              "order_first": false,
-              "open_default": false
-            }
-          },
-          "7d719a19-0930-4e1d-8abd-742ee7ef4614": {
-            "type": "menu",
-            "settings": {
-              "menu": "",
-              "title": "Service",
-              "width": "25%",
+              "menu": "footer-menu-3",
+              "title": "LEGAL",
+              "width": "33%",
               "order_first": false,
               "open_default": false
             }
@@ -330,8 +336,8 @@
         "block_order": [
           "240bfca1-cb2a-4259-a7a2-52f31769e82d",
           "49e72833-c68f-4a7b-ab64-3ef0cae99bcb",
-          "7ebc2f78-975b-4a81-b874-103c3355a866",
-          "7d719a19-0930-4e1d-8abd-742ee7ef4614"
+          "4d8dbab5-c3e3-45f9-aeeb-6bbcff6553aa",
+          "7ebc2f78-975b-4a81-b874-103c3355a866"
         ],
         "settings": {
           "design": "footer-3",

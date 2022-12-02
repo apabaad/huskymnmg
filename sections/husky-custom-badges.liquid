@@ -51,7 +51,7 @@
           {% render 'index-section-header', section_settings: settings %}
           <div class="brands-list__container">
               <div class="{% if enable_slider %} swiper-container swiper--equal-height{% endif %}">
-                  <div class="{% if enable_slider %}md:grid md:items-center{% else %}grid{% endif %} grid-cols-2 md:grid-cols-{{ settings.item_per_row | minus: 2 }} xl:grid-cols-{{ settings.item_per_row }}" data-wrapper>
+                  <div class="{% if enable_slider %}md:grid md:items-center{% else %}grid{% endif %} grid-cols-4 md:grid-cols-{{ settings.item_per_row | minus: 0 }} xl:grid-cols-{{ settings.item_per_row }}" data-wrapper>
                       {% for block in blocks %}
                           {% liquid
                             assign max_width = '100%'
@@ -77,8 +77,8 @@
                                   {% else %}
                                       {{ 'image' | placeholder_svg_tag: 'sf__placeholder-svg w-full h-full' }}
                                   {% endif %}
-                                  <div class="husky-badge-title text-white">{{ block.settings.husky-badge-title }}</div>
-                                  <div class="husky-badge-desc text-white text-center"> {{ block.settings.husky-badge-desc }}</div>
+                                  <div class="husky-badge-title text-white" align="center">{{ block.settings.husky-badge-title }}</div>
+                                  {% comment %} <div class="husky-badge-desc text-white text-center"> {{ block.settings.husky-badge-desc }}</div> {% endcomment %}
                               </{{ tag }}>
                           </div>
                       {% endfor %}

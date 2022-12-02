@@ -6,7 +6,7 @@
         "d1930f3f-93f1-4a6a-b983-3807edb77793": {
           "type": "video_slide",
           "settings": {
-            "video": "https:\/\/cdn.shopify.com\/s\/files\/1\/0555\/7220\/1635\/files\/blurry-trees.mp4",
+            "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/cc864b435e42429289f7ab98d5c31554.mp4",
             "content_in_container": false,
             "content_position": "center middle",
             "text_alignment": "center",
@@ -56,7 +56,18 @@
             "image_link": "",
             "max_width": "150px",
             "husky-badge-title": "trusted brand",
-            "husky-badge-desc": "Husky is a global brand, trusted by thousands of customers"
+            "husky-badge-desc": ""
+          }
+        },
+        "template--16925765108009__897d2b15-730e-42ad-ad24-457184fdfe4a-16685575337d9736da-3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screenshot_4.png",
+            "image_by_url": "",
+            "image_link": "",
+            "max_width": "150px",
+            "husky-badge-title": "Premium quality",
+            "husky-badge-desc": ""
           }
         },
         "template--16925765108009__897d2b15-730e-42ad-ad24-457184fdfe4a-16685575337d9736da-1": {
@@ -67,29 +78,7 @@
             "image_link": "",
             "max_width": "150px",
             "husky-badge-title": "product range",
-            "husky-badge-desc": "Husky is a global brand, trusted by thousands of customers"
-          }
-        },
-        "template--16925765108009__897d2b15-730e-42ad-ad24-457184fdfe4a-16685575337d9736da-2": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Screenshot_3_f8dbf561-6d03-4588-8a22-becc0766e78c.png",
-            "image_by_url": "",
-            "image_link": "",
-            "max_width": "150px",
-            "husky-badge-title": "we deliver",
-            "husky-badge-desc": "Husky is a global brand, trusted by thousands of customers straight to your door"
-          }
-        },
-        "template--16925765108009__897d2b15-730e-42ad-ad24-457184fdfe4a-16685575337d9736da-3": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Screenshot_4.png",
-            "image_by_url": "",
-            "image_link": "",
-            "max_width": "150px",
-            "husky-badge-title": "great pricing",
-            "husky-badge-desc": "Husky is a global brand, trusted by thousands of customers"
+            "husky-badge-desc": ""
           }
         },
         "502cf08b-a285-4ad4-bd5b-a2fa016585b3": {
@@ -100,15 +89,14 @@
             "image_link": "",
             "max_width": "150px",
             "husky-badge-title": "service & support",
-            "husky-badge-desc": "Husky is a global brand, trusted by thousands of customers"
+            "husky-badge-desc": ""
           }
         }
       },
       "block_order": [
         "template--16925765108009__897d2b15-730e-42ad-ad24-457184fdfe4a-16685575337d9736da-0",
-        "template--16925765108009__897d2b15-730e-42ad-ad24-457184fdfe4a-16685575337d9736da-1",
-        "template--16925765108009__897d2b15-730e-42ad-ad24-457184fdfe4a-16685575337d9736da-2",
         "template--16925765108009__897d2b15-730e-42ad-ad24-457184fdfe4a-16685575337d9736da-3",
+        "template--16925765108009__897d2b15-730e-42ad-ad24-457184fdfe4a-16685575337d9736da-1",
         "502cf08b-a285-4ad4-bd5b-a2fa016585b3"
       ],
       "settings": {
@@ -117,9 +105,9 @@
         "header_alignment": "center",
         "container": "container-fluid",
         "background_color": "#a6a6a6",
-        "item_per_row": 5,
-        "enable_slider": true,
-        "autorotate": true,
+        "item_per_row": 4,
+        "enable_slider": false,
+        "autorotate": false,
         "autorotate_speed": 3,
         "padding_top": 0,
         "padding_bottom": 0,
@@ -201,19 +189,19 @@
           "type": "image_with_text",
           "settings": {
             "width": "100%",
-            "image": "shopify:\/\/shop_images\/Screenshot_3.png",
-            "link": "",
+            "image": "shopify:\/\/shop_images\/Husky_Home-Range.jpg",
+            "link": "shopify:\/\/collections\/domestic-refrigeration",
             "layout": "left",
             "image_column_size": "5",
             "hover_effect": false,
-            "title": "HOME RANGE",
+            "title": "REFRIGERATION FOR YOUR HOME",
             "sub_title": "",
             "text": "<p>Lorem ipsum dolor sit amet. Qui perspiciatis perferendis ab incidunt perferendis est suscipit maxime qui sequi optio? Qui unde quidem eum excepturi autem aut odio nostrum eum sunt molestiae aut optio voluptatem est libero dolorum quo.<\/p>",
             "text-bg-color": "#f2f2f2",
             "text_size": "medium",
             "text_alignment": "left",
-            "button_label": "CLICK HERE",
-            "button_link": "shopify:\/\/collections\/domestic-fridges",
+            "button_label": "FIND OUT MORE",
+            "button_link": "shopify:\/\/collections\/domestic-refrigeration",
             "button_style": "sf__btn-primary",
             "button_size": "",
             "block_custom_class": ""
@@ -245,8 +233,8 @@
           "type": "image_with_text",
           "settings": {
             "width": "100%",
-            "image": "shopify:\/\/shop_images\/Screenshot_1.png",
-            "link": "",
+            "image": "shopify:\/\/shop_images\/Husky_Drink-Chillers.jpg",
+            "link": "shopify:\/\/collections\/drinks-chillers-1",
             "layout": "right",
             "image_column_size": "5",
             "hover_effect": false,
@@ -256,8 +244,8 @@
             "text-bg-color": "#f2f2f2",
             "text_size": "medium",
             "text_alignment": "right",
-            "button_label": "CLICK HERE",
-            "button_link": "shopify:\/\/collections\/domestic-fridges",
+            "button_label": "FIND OUT MORE",
+            "button_link": "shopify:\/\/collections\/drinks-chillers-1",
             "button_style": "sf__btn-primary",
             "button_size": "",
             "block_custom_class": ""
@@ -282,11 +270,100 @@
         "custom_class": ""
       }
     },
+    "5a9a20cf-90e7-47ef-a50a-a3e79a51c3e4": {
+      "type": "custom-content",
+      "blocks": {
+        "e582f85c-5a8d-47f0-a0de-94fc50713844": {
+          "type": "image_with_text",
+          "settings": {
+            "width": "100%",
+            "image": "shopify:\/\/shop_images\/Husky_Wine.jpg",
+            "link": "",
+            "layout": "left",
+            "image_column_size": "5",
+            "hover_effect": false,
+            "title": "WINE FRIDGES",
+            "sub_title": "",
+            "text": "<p>Lorem ipsum dolor sit amet. Qui perspiciatis perferendis ab incidunt perferendis est suscipit maxime qui sequi optio? Qui unde quidem eum excepturi autem aut odio nostrum eum sunt molestiae aut optio voluptatem est libero dolorum quo.<\/p>",
+            "text-bg-color": "#f2f2f2",
+            "text_size": "medium",
+            "text_alignment": "left",
+            "button_label": "FIND OUT MORE",
+            "button_link": "shopify:\/\/collections\/wine-fridges-1",
+            "button_style": "sf__btn-primary",
+            "button_size": "",
+            "block_custom_class": ""
+          }
+        }
+      },
+      "block_order": [
+        "e582f85c-5a8d-47f0-a0de-94fc50713844"
+      ],
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "description": "",
+        "header_alignment": "center",
+        "container": "container",
+        "background_color": "",
+        "gap": 0,
+        "use_scroll_mobile": false,
+        "gap_mobile": 20,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": ""
+      }
+    },
+    "9ccfa6e5-7d0e-43c1-bcaa-99f7b737e9a9": {
+      "type": "custom-content",
+      "blocks": {
+        "cbc124f9-e5e0-46a5-a9f9-c6f15a635b0e": {
+          "type": "image_with_text",
+          "settings": {
+            "width": "100%",
+            "image": "shopify:\/\/shop_images\/Husky_Commercial.jpg",
+            "link": "",
+            "layout": "right",
+            "image_column_size": "5",
+            "hover_effect": false,
+            "title": "COMMERCIAL REFRIGERATION",
+            "sub_title": "",
+            "text": "<p>Lorem ipsum dolor sit amet. Qui perspiciatis perferendis ab incidunt perferendis est suscipit maxime qui sequi optio? Qui unde quidem eum excepturi autem aut odio nostrum eum sunt molestiae aut optio voluptatem est libero dolorum quo.<\/p>",
+            "text-bg-color": "#f2f2f2",
+            "text_size": "medium",
+            "text_alignment": "left",
+            "button_label": "FIND OUT MORE",
+            "button_link": "shopify:\/\/collections\/commercial-refrigeration-2",
+            "button_style": "sf__btn-primary",
+            "button_size": "",
+            "block_custom_class": ""
+          }
+        }
+      },
+      "block_order": [
+        "cbc124f9-e5e0-46a5-a9f9-c6f15a635b0e"
+      ],
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "description": "",
+        "header_alignment": "center",
+        "container": "container",
+        "background_color": "",
+        "gap": 0,
+        "use_scroll_mobile": false,
+        "gap_mobile": 20,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_class": ""
+      }
+    },
     "7c21e3bc-1ebd-43a9-858b-c055b5e4413f": {
       "type": "custom-content",
       "blocks": {
         "template--16925707764009__7c21e3bc-1ebd-43a9-858b-c055b5e4413f-1668491617035698e0-1": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Screenshot_7.png",
             "link": "",
@@ -297,6 +374,7 @@
         },
         "406ef37d-1205-411b-bf98-0d399278fb97": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Screenshot_8.png",
             "link": "",
@@ -307,6 +385,7 @@
         },
         "c1e1c5a9-7e87-49be-ac80-d8fc0bd8b1d0": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Screenshot_9.png",
             "link": "",
@@ -317,10 +396,21 @@
         },
         "49822c06-f9f1-4ce7-a100-5c1386d12123": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Screenshot_10.png",
             "link": "",
             "width": "25%",
+            "alignment": "center",
+            "block_custom_class": ""
+          }
+        },
+        "c80405b5-3cf4-4c48-b054-ade23970a9cb": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Husky_WebSpacer_1920x250_a1a839c2-c1c6-4c8c-a771-a98d5eea6289.jpg",
+            "link": "",
+            "width": "100%",
             "alignment": "center",
             "block_custom_class": ""
           }
@@ -330,7 +420,8 @@
         "template--16925707764009__7c21e3bc-1ebd-43a9-858b-c055b5e4413f-1668491617035698e0-1",
         "406ef37d-1205-411b-bf98-0d399278fb97",
         "c1e1c5a9-7e87-49be-ac80-d8fc0bd8b1d0",
-        "49822c06-f9f1-4ce7-a100-5c1386d12123"
+        "49822c06-f9f1-4ce7-a100-5c1386d12123",
+        "c80405b5-3cf4-4c48-b054-ade23970a9cb"
       ],
       "settings": {
         "heading": "",
@@ -461,6 +552,8 @@
     "357b12f5-9b19-44b3-b85d-fcef74b0584e",
     "cdfbc395-16af-4f33-8f04-2a208f24d98c",
     "45b4e46e-5e41-4b07-836c-978a1a5ee4d6",
+    "5a9a20cf-90e7-47ef-a50a-a3e79a51c3e4",
+    "9ccfa6e5-7d0e-43c1-bcaa-99f7b737e9a9",
     "7c21e3bc-1ebd-43a9-858b-c055b5e4413f",
     "d811dc05-ef2c-4ca1-a5d4-6b48e6c7fe39",
     "a32d4bcd-cd8a-46c3-b095-03dfda24a604"

@@ -4756,7 +4756,7 @@ button.sf__btn.sf__btn-white:hover {
   padding: 0;
 }
 .sf-menu__desktop-sub-menu {
-  min-width: 250px;
+  min-width: 320px;
 }
 .sf-menu-item--active .sf-menu__desktop-sub-menu {
   opacity: 1 !important;
